@@ -1,0 +1,205 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    z-index: 3;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    z-index: 2;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 24px;
+    background: linear-gradient(90deg, #BC9743 0%, #423D3A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.nav-link {
+    color: #9C9C9C;
+    font-size: 16px;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px transparent;
+    background: linear-gradient(90deg, #BC9743 -9.21%, #5F4F3C 75.63%);
+    width: 50%;
+    margin: auto;
+    padding-bottom: 4px;
+    margin-top: 20px;
+    border-radius: 25px;
+    margin-bottom: -25px;
+    color: #BC9743
+}
+
+.contact-info {
+    border-radius: 25px;
+    bottom: 100px; 
+}
+  
+.btn.btn-secondary {
+    background:rgba(188, 151, 67, 0.1);
+    border-radius: 12px;
+    padding: 12px 24px;
+    gap: 10px;
+    border-style: none;
+    color: #BC9743;
+}
+
+.hero-tagline{
+    position: absolute;
+    width: 516px;
+    height: 156px;
+    left: 160px;
+    top: 234px;
+    font-family: 'Poppins';
+    font-size: 52px;
+    line-height: 60px;
+    color: #232631;
+}
+
+.carousel.slide {
+    padding-top: 100px;
+}
+
+.caraousel-caption {
+    margin-bottom: 80px;
+    margin-top: -150px;
+    margin-left: -10px;
+    border-color: blue;
+}
+
+.btn-outline-light{
+    background: #816B3E;
+    border-radius: 12px;
+    font-size: 18px;
+    margin-left: 1050px;
+    margin-top: 100px;
+}
+
+.logo_internal {
+    margin-top: 80px;
+}
+
+.info-panel {
+    background-color: #232631;
+}
+
+.partner {
+    margin-top: 140px;
+    text-align: center;
+    color: rgba(35, 38, 49, 0.8);
+}
+
+.asset-img {
+    margin : 45px;
+}
+.pengenalan {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.h2sect3 {
+    background: linear-gradient(90deg, #BC9743 0%, #423D3A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.desc_pengenalan {
+    text-align: left;
+    margin-left: 50%;
+    margin-right: 7%;
+    margin-top: 60px;
+    background-image: url(asset/Vectorsect3.png);
+    font-size: 20px;
+}
+
+.vectorsect3 {
+    position: absolute;
+    margin-top: -430px;
+    zoom: 170%;
+    z-index: 0;
+    margin-left: -70px;
+}
+
+.logofornas{
+    position: relative;
+    z-index: 1;
+    margin-top: -420px;
+    margin-right: 50%;
+}
+
+.filosofi {
+    text-align: center;
+    margin-top: 280px;
+    font-weight: 600;
+}
+
+.h2sect4 {
+    background: linear-gradient(90deg, #BC9743 0%, #423D3A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.berita {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.desc_berita {
+    color: #7B7B7B;
+    size: 16px;
+    margin-top: 20px;
+}
+
+.card_berita {
+    margin-top: 50px;
+    border-radius: 24px;
+    box-shadow: 0px 14px 25px #F2F2F2;
+}
+
+.btn.btn-primary {
+    background: #BC9743;
+    border-radius: 12px;
+    border-color: transparent;
+    align-items: flex-start;
+}
+
+.btn-outline-warning {
+    color: #5F4F3C;
+}
+
+.faq {
+    margin-top: 300px;
+}
+
+.bg1faq {
+    position: absolute;
+    z-index: 0;
+    margin-top: -500px;
+    margin-left: 733px;
+    zoom: 120%;
+}
+
+.bg2faq {
+    position:sticky;
+    z-index: 1;
+    margin-top: -400px;
+}
+
+.footer {
+    
+    margin-top: 250px;
+}
+
+
